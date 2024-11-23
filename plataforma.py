@@ -32,6 +32,7 @@ class Plataforma:
         nombre = input("Nombre: ")
         contrasena = input("Contraseña: ")
         edad = int(input("Edad: "))
+        # Se crea una instancia de la clase Usuario con los datos ingresados. 
         usuario = Usuario(nombre, contrasena, edad)
         self.usuarios.insertar(usuario.nombre, usuario.contrasena)
         print(f"Usuario {nombre} creado con éxito.")

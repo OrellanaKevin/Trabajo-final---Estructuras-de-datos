@@ -10,7 +10,8 @@ class Nodo:
 class ArbolBinario:
     def __init__(self):
         self.raiz = None
-
+    
+    # ENTENDER ESTE CODIGO!!!---------------------------------------------------------------- 
     def insertar(self, usuario, contrasena):
         def _insertar(nodo, usuario, contrasena):
             if nodo is None:
