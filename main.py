@@ -1,5 +1,7 @@
 # Archivo que inicia el programa y ejecuta el menu principal.
 
+# Comentario
+
 from plataforma import Plataforma
 
 def main():
